@@ -12,7 +12,6 @@ In an n-cube, every point is connected to n points that differ in one bit, makin
 
 The VHDL implementation begins by defining an integer array of size 8. A logarithm function is also defined to calculate log(n). The sorting of the Bitonic Sequence is performed in a hypercube, where each node compares its data with its neighbor in the desired dimension and replaces it if necessary. The number of dimensions is equal to the logarithm of the number of data elements.
 
-![Bitonic Sequence Sorter Algorithm](images/bitonic_algorithm.png)
 
 The provided image illustrates the algorithm presented for sorting Bitonic Sequences. Each processor or node in the hypercube compares its data with the desired next neighbor in log(n) iterations and replaces it if needed. The variables 'y,' 'x,' and 'index' play a crucial role in this process.
 
